@@ -18,7 +18,11 @@ this.head = newNode;
 this.size++;
 
 }
+MylinkedList.prototype.addAtTail = function(){
+    
+}
 
 let list = new MylinkedList();
 list.addAtHead(30);
 console.log(list);
+
